@@ -1,0 +1,73 @@
+
+
+   h1{
+
+  
+        font-family: "Sofia", sans-serif;
+      }
+    
+
+  
+   @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size: large;
+    
+    }
+} 
+.wi{
+
+
+width: 100px;
+height: 100px;
+background: pink;
+transition: width 2s;
+}
+
+.wi:hover{
+width: 300px;
+
+}
+
+.dot{
+  border:2px solid black;
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+}
+.ab{
+  width: 150px;
+  height: 100px;
+  background-color:white;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {
+    background-color: blueviolet;
+  }
+  to {
+    background-color:aquamarine;
+  }
+}
+div {
+  width: 100px;
+  height: 100px;
+  background:burlywood;
+  transition: width 2s height 3s;
+  transition-duration: 5s;
+}
+.transition:hover{
+  width:150px;
+  height: 150px;
+}
+div.a {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg); 
+  transform: rotate(20deg);
+}
+
